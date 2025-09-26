@@ -32,14 +32,24 @@ Proje sonunda elde edilen temel metrikler:
 
 Bu sonuçlar, modelin başarılı bir şekilde kedi ve köpek görüntülerini ayırt edebildiğini göstermektedir. Validation ve training accuracy arasındaki dengeli fark, overfitting probleminin başarıyla kontrol altına alındığını işaret eder.
 
+### Eğitim Süreci Grafikleri
+![Training History](training_history.png)
+
+### Karmaşıklık Matrisi
+![Confusion Matrix](confusion_matrix.png)
+
 ## Ekler
 
 Proje kapsamında aşağıdaki ek analizler ve görselleştirmeler yapılmıştır:
 
-- **Confusion Matrix:** Model tahminlerinin detaylı analizi
-- **Training History:** Epoch bazında accuracy ve loss değişimleri
-- **Grad-CAM Analizi:** Modelin hangi özelliklere odaklandığının görselleştirilmesi
-- **Yanlış Sınıflandırılan Örnekler:** Model hatalarının analizi
+### Örnek Tahminler
+![Sample Predictions](sample_predictions.png)
+
+### Grad-CAM Analizi
+![Grad-CAM Analysis](gradcam_analysis.png)
+
+### Yanlış Sınıflandırılan Örnekler
+![Misclassified Examples](misclassified_examples.png)
 
 ## Sonuç ve Gelecek Çalışmalar
 
